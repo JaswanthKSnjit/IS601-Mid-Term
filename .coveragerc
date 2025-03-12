@@ -1,5 +1,7 @@
 [run]
 source = app
+omit =
+    app/plugins/history/*
 
 [report]
 exclude_lines =

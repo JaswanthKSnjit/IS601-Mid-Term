@@ -41,4 +41,3 @@ def test_divide_by_zero():
     """
     with pytest.raises(ZeroDivisionError, match="Cannot divide by 0!"):  # Expect a ZeroDivisionError to be raised.
         DivideCommand().evaluate(Decimal(3), Decimal(0))  # Attempt to perform the calculation, which should trigger the ZeroDivisionError.
-        

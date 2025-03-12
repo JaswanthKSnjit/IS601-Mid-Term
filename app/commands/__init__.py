@@ -5,7 +5,7 @@ from abc import ABC, abstractmethod
 HISTORY_FILE = "data/history.csv"  # Ensure the correct path
 
 # Define Command (Abstract Base Class)
-class Command(ABC):
+class Command(ABC): #pragma: no cover
     @abstractmethod
     def execute(self, *args, **kwargs):
         """Abstract method to execute the command with given arguments."""

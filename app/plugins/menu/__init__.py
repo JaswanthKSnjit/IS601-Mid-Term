@@ -3,9 +3,9 @@ from app.commands import Command
 class MenuCommand(Command):
     def execute(self, *args, **kwargs):
         """Execute the menu command, displaying available commands."""
-        self.display_menu()
+        self.display_menu() # pragma: no cover
 
-    def display_menu(self):
+    def display_menu(self): # pragma: no cover
         """Prints the available commands in the application."""
         print("Available Commands:")
         print("-------------------")

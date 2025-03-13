@@ -3461,3 +3461,339 @@
 2025-03-12 21:11:01,735 - INFO - Application exit.
 2025-03-12 21:11:01,737 - INFO - Logging configured.
 2025-03-12 21:11:01,738 - INFO - Environment variables loaded.
+2025-03-12 21:11:38,592 - INFO - Logging configured.
+2025-03-12 21:11:38,593 - INFO - Environment variables loaded.
+2025-03-12 21:11:38,594 - INFO - Command 'add' from plugin 'add' registered.
+2025-03-12 21:11:38,595 - INFO - Command 'divide' from plugin 'divide' registered.
+2025-03-12 21:11:38,595 - INFO - Command 'history' from plugin 'history' registered.
+2025-03-12 21:11:38,596 - INFO - Command 'menu' from plugin 'menu' registered.
+2025-03-12 21:11:38,597 - INFO - Command 'multiply' from plugin 'multiply' registered.
+2025-03-12 21:11:38,597 - INFO - Command 'subtract' from plugin 'subtract' registered.
+2025-03-12 21:11:38,597 - INFO - Application started.
+2025-03-12 21:11:38,597 - INFO - Type 'menu' to see commands.
+2025-03-12 21:11:38,597 - INFO - Type 'exit' to exit.
+2025-03-12 21:11:38,597 - INFO - Type 'history show' to see history.
+2025-03-12 21:11:38,597 - INFO - 1.0 + 1.0 = 2.0
+2025-03-12 21:11:38,597 - INFO - Application exit.
+2025-03-12 21:11:38,600 - INFO - Logging configured.
+2025-03-12 21:11:38,601 - INFO - Environment variables loaded.
+2025-03-12 21:11:38,601 - INFO - Command 'add' from plugin 'add' registered.
+2025-03-12 21:11:38,601 - INFO - Command 'divide' from plugin 'divide' registered.
+2025-03-12 21:11:38,602 - INFO - Command 'history' from plugin 'history' registered.
+2025-03-12 21:11:38,602 - INFO - Command 'menu' from plugin 'menu' registered.
+2025-03-12 21:11:38,602 - INFO - Command 'multiply' from plugin 'multiply' registered.
+2025-03-12 21:11:38,602 - INFO - Command 'subtract' from plugin 'subtract' registered.
+2025-03-12 21:11:38,603 - INFO - Application started.
+2025-03-12 21:11:38,603 - INFO - Type 'menu' to see commands.
+2025-03-12 21:11:38,603 - INFO - Type 'exit' to exit.
+2025-03-12 21:11:38,603 - INFO - Type 'history show' to see history.
+2025-03-12 21:11:38,603 - INFO - 1.0 - 1.0 = 0.0
+2025-03-12 21:11:38,603 - INFO - Application exit.
+2025-03-12 21:11:38,605 - INFO - Logging configured.
+2025-03-12 21:11:38,605 - INFO - Environment variables loaded.
+2025-03-12 21:11:38,606 - INFO - Command 'add' from plugin 'add' registered.
+2025-03-12 21:11:38,606 - INFO - Command 'divide' from plugin 'divide' registered.
+2025-03-12 21:11:38,606 - INFO - Command 'history' from plugin 'history' registered.
+2025-03-12 21:11:38,607 - INFO - Command 'menu' from plugin 'menu' registered.
+2025-03-12 21:11:38,607 - INFO - Command 'multiply' from plugin 'multiply' registered.
+2025-03-12 21:11:38,607 - INFO - Command 'subtract' from plugin 'subtract' registered.
+2025-03-12 21:11:38,608 - INFO - Application started.
+2025-03-12 21:11:38,608 - INFO - Type 'menu' to see commands.
+2025-03-12 21:11:38,608 - INFO - Type 'exit' to exit.
+2025-03-12 21:11:38,608 - INFO - Type 'history show' to see history.
+2025-03-12 21:11:38,608 - INFO - 1.0 x 1.0 = 1.0
+2025-03-12 21:11:38,608 - INFO - Application exit.
+2025-03-12 21:11:38,610 - INFO - Logging configured.
+2025-03-12 21:11:38,610 - INFO - Environment variables loaded.
+2025-03-12 21:11:38,611 - INFO - Command 'add' from plugin 'add' registered.
+2025-03-12 21:11:38,611 - INFO - Command 'divide' from plugin 'divide' registered.
+2025-03-12 21:11:38,611 - INFO - Command 'history' from plugin 'history' registered.
+2025-03-12 21:11:38,612 - INFO - Command 'menu' from plugin 'menu' registered.
+2025-03-12 21:11:38,613 - INFO - Command 'multiply' from plugin 'multiply' registered.
+2025-03-12 21:11:38,613 - INFO - Command 'subtract' from plugin 'subtract' registered.
+2025-03-12 21:11:38,613 - INFO - Application started.
+2025-03-12 21:11:38,613 - INFO - Type 'menu' to see commands.
+2025-03-12 21:11:38,613 - INFO - Type 'exit' to exit.
+2025-03-12 21:11:38,614 - INFO - Type 'history show' to see history.
+2025-03-12 21:11:38,614 - INFO - 1.0 / 1.0 = 1.0
+2025-03-12 21:11:38,614 - INFO - Application exit.
+2025-03-12 21:11:38,616 - INFO - Logging configured.
+2025-03-12 21:11:38,617 - INFO - Environment variables loaded.
+2025-03-12 21:11:38,618 - INFO - Command 'add' from plugin 'add' registered.
+2025-03-12 21:11:38,619 - INFO - Command 'divide' from plugin 'divide' registered.
+2025-03-12 21:11:38,619 - INFO - Command 'history' from plugin 'history' registered.
+2025-03-12 21:11:38,620 - INFO - Command 'menu' from plugin 'menu' registered.
+2025-03-12 21:11:38,620 - INFO - Command 'multiply' from plugin 'multiply' registered.
+2025-03-12 21:11:38,621 - INFO - Command 'subtract' from plugin 'subtract' registered.
+2025-03-12 21:11:38,621 - INFO - Application started.
+2025-03-12 21:11:38,621 - INFO - Type 'menu' to see commands.
+2025-03-12 21:11:38,621 - INFO - Type 'exit' to exit.
+2025-03-12 21:11:38,621 - INFO - Type 'history show' to see history.
+2025-03-12 21:11:38,621 - INFO - Application exit.
+2025-03-12 21:11:38,624 - INFO - Logging configured.
+2025-03-12 21:11:38,624 - INFO - Environment variables loaded.
+2025-03-12 21:11:38,625 - INFO - Command 'add' from plugin 'add' registered.
+2025-03-12 21:11:38,625 - INFO - Command 'divide' from plugin 'divide' registered.
+2025-03-12 21:11:38,625 - INFO - Command 'history' from plugin 'history' registered.
+2025-03-12 21:11:38,626 - INFO - Command 'menu' from plugin 'menu' registered.
+2025-03-12 21:11:38,626 - INFO - Command 'multiply' from plugin 'multiply' registered.
+2025-03-12 21:11:38,626 - INFO - Command 'subtract' from plugin 'subtract' registered.
+2025-03-12 21:11:38,626 - INFO - Application started.
+2025-03-12 21:11:38,626 - INFO - Type 'menu' to see commands.
+2025-03-12 21:11:38,626 - INFO - Type 'exit' to exit.
+2025-03-12 21:11:38,626 - INFO - Type 'history show' to see history.
+2025-03-12 21:11:38,626 - INFO - Application exit.
+2025-03-12 21:11:38,629 - INFO - Logging configured.
+2025-03-12 21:11:38,630 - INFO - Environment variables loaded.
+2025-03-12 21:11:47,374 - INFO - Logging configured.
+2025-03-12 21:11:47,375 - INFO - Environment variables loaded.
+2025-03-12 21:11:47,376 - INFO - Command 'add' from plugin 'add' registered.
+2025-03-12 21:11:47,376 - INFO - Command 'divide' from plugin 'divide' registered.
+2025-03-12 21:11:47,377 - INFO - Command 'history' from plugin 'history' registered.
+2025-03-12 21:11:47,377 - INFO - Command 'menu' from plugin 'menu' registered.
+2025-03-12 21:11:47,378 - INFO - Command 'multiply' from plugin 'multiply' registered.
+2025-03-12 21:11:47,378 - INFO - Command 'subtract' from plugin 'subtract' registered.
+2025-03-12 21:11:47,378 - INFO - Application started.
+2025-03-12 21:11:47,378 - INFO - Type 'menu' to see commands.
+2025-03-12 21:11:47,378 - INFO - Type 'exit' to exit.
+2025-03-12 21:11:47,378 - INFO - Type 'history show' to see history.
+2025-03-12 21:11:47,378 - INFO - 1.0 + 1.0 = 2.0
+2025-03-12 21:11:47,379 - INFO - Application exit.
+2025-03-12 21:11:47,382 - INFO - Logging configured.
+2025-03-12 21:11:47,383 - INFO - Environment variables loaded.
+2025-03-12 21:11:47,383 - INFO - Command 'add' from plugin 'add' registered.
+2025-03-12 21:11:47,384 - INFO - Command 'divide' from plugin 'divide' registered.
+2025-03-12 21:11:47,384 - INFO - Command 'history' from plugin 'history' registered.
+2025-03-12 21:11:47,384 - INFO - Command 'menu' from plugin 'menu' registered.
+2025-03-12 21:11:47,385 - INFO - Command 'multiply' from plugin 'multiply' registered.
+2025-03-12 21:11:47,385 - INFO - Command 'subtract' from plugin 'subtract' registered.
+2025-03-12 21:11:47,386 - INFO - Application started.
+2025-03-12 21:11:47,386 - INFO - Type 'menu' to see commands.
+2025-03-12 21:11:47,386 - INFO - Type 'exit' to exit.
+2025-03-12 21:11:47,386 - INFO - Type 'history show' to see history.
+2025-03-12 21:11:47,386 - INFO - 1.0 - 1.0 = 0.0
+2025-03-12 21:11:47,386 - INFO - Application exit.
+2025-03-12 21:11:47,389 - INFO - Logging configured.
+2025-03-12 21:11:47,391 - INFO - Environment variables loaded.
+2025-03-12 21:11:47,392 - INFO - Command 'add' from plugin 'add' registered.
+2025-03-12 21:11:47,392 - INFO - Command 'divide' from plugin 'divide' registered.
+2025-03-12 21:11:47,392 - INFO - Command 'history' from plugin 'history' registered.
+2025-03-12 21:11:47,393 - INFO - Command 'menu' from plugin 'menu' registered.
+2025-03-12 21:11:47,393 - INFO - Command 'multiply' from plugin 'multiply' registered.
+2025-03-12 21:11:47,394 - INFO - Command 'subtract' from plugin 'subtract' registered.
+2025-03-12 21:11:47,394 - INFO - Application started.
+2025-03-12 21:11:47,395 - INFO - Type 'menu' to see commands.
+2025-03-12 21:11:47,395 - INFO - Type 'exit' to exit.
+2025-03-12 21:11:47,395 - INFO - Type 'history show' to see history.
+2025-03-12 21:11:47,395 - INFO - 1.0 x 1.0 = 1.0
+2025-03-12 21:11:47,395 - INFO - Application exit.
+2025-03-12 21:11:47,399 - INFO - Logging configured.
+2025-03-12 21:11:47,400 - INFO - Environment variables loaded.
+2025-03-12 21:11:47,401 - INFO - Command 'add' from plugin 'add' registered.
+2025-03-12 21:11:47,401 - INFO - Command 'divide' from plugin 'divide' registered.
+2025-03-12 21:11:47,402 - INFO - Command 'history' from plugin 'history' registered.
+2025-03-12 21:11:47,402 - INFO - Command 'menu' from plugin 'menu' registered.
+2025-03-12 21:11:47,404 - INFO - Command 'multiply' from plugin 'multiply' registered.
+2025-03-12 21:11:47,405 - INFO - Command 'subtract' from plugin 'subtract' registered.
+2025-03-12 21:11:47,405 - INFO - Application started.
+2025-03-12 21:11:47,406 - INFO - Type 'menu' to see commands.
+2025-03-12 21:11:47,406 - INFO - Type 'exit' to exit.
+2025-03-12 21:11:47,406 - INFO - Type 'history show' to see history.
+2025-03-12 21:11:47,406 - INFO - 1.0 / 1.0 = 1.0
+2025-03-12 21:11:47,407 - INFO - Application exit.
+2025-03-12 21:11:47,410 - INFO - Logging configured.
+2025-03-12 21:11:47,411 - INFO - Environment variables loaded.
+2025-03-12 21:11:47,411 - INFO - Command 'add' from plugin 'add' registered.
+2025-03-12 21:11:47,412 - INFO - Command 'divide' from plugin 'divide' registered.
+2025-03-12 21:11:47,412 - INFO - Command 'history' from plugin 'history' registered.
+2025-03-12 21:11:47,413 - INFO - Command 'menu' from plugin 'menu' registered.
+2025-03-12 21:11:47,414 - INFO - Command 'multiply' from plugin 'multiply' registered.
+2025-03-12 21:11:47,414 - INFO - Command 'subtract' from plugin 'subtract' registered.
+2025-03-12 21:11:47,415 - INFO - Application started.
+2025-03-12 21:11:47,415 - INFO - Type 'menu' to see commands.
+2025-03-12 21:11:47,415 - INFO - Type 'exit' to exit.
+2025-03-12 21:11:47,415 - INFO - Type 'history show' to see history.
+2025-03-12 21:11:47,415 - INFO - Application exit.
+2025-03-12 21:11:47,418 - INFO - Logging configured.
+2025-03-12 21:11:47,419 - INFO - Environment variables loaded.
+2025-03-12 21:11:47,419 - INFO - Command 'add' from plugin 'add' registered.
+2025-03-12 21:11:47,420 - INFO - Command 'divide' from plugin 'divide' registered.
+2025-03-12 21:11:47,420 - INFO - Command 'history' from plugin 'history' registered.
+2025-03-12 21:11:47,421 - INFO - Command 'menu' from plugin 'menu' registered.
+2025-03-12 21:11:47,421 - INFO - Command 'multiply' from plugin 'multiply' registered.
+2025-03-12 21:11:47,422 - INFO - Command 'subtract' from plugin 'subtract' registered.
+2025-03-12 21:11:47,422 - INFO - Application started.
+2025-03-12 21:11:47,422 - INFO - Type 'menu' to see commands.
+2025-03-12 21:11:47,422 - INFO - Type 'exit' to exit.
+2025-03-12 21:11:47,422 - INFO - Type 'history show' to see history.
+2025-03-12 21:11:47,422 - INFO - Application exit.
+2025-03-12 21:11:47,427 - INFO - Logging configured.
+2025-03-12 21:11:47,428 - INFO - Environment variables loaded.
+2025-03-12 21:12:59,193 - INFO - Logging configured.
+2025-03-12 21:12:59,194 - INFO - Environment variables loaded.
+2025-03-12 21:12:59,195 - INFO - Command 'add' from plugin 'add' registered.
+2025-03-12 21:12:59,196 - INFO - Command 'divide' from plugin 'divide' registered.
+2025-03-12 21:12:59,197 - INFO - Command 'history' from plugin 'history' registered.
+2025-03-12 21:12:59,198 - INFO - Command 'menu' from plugin 'menu' registered.
+2025-03-12 21:12:59,199 - INFO - Command 'multiply' from plugin 'multiply' registered.
+2025-03-12 21:12:59,199 - INFO - Command 'subtract' from plugin 'subtract' registered.
+2025-03-12 21:12:59,199 - INFO - Application started.
+2025-03-12 21:12:59,199 - INFO - Type 'menu' to see commands.
+2025-03-12 21:12:59,199 - INFO - Type 'exit' to exit.
+2025-03-12 21:12:59,199 - INFO - Type 'history show' to see history.
+2025-03-12 21:12:59,199 - INFO - 1.0 + 1.0 = 2.0
+2025-03-12 21:12:59,199 - INFO - Application exit.
+2025-03-12 21:12:59,202 - INFO - Logging configured.
+2025-03-12 21:12:59,202 - INFO - Environment variables loaded.
+2025-03-12 21:12:59,203 - INFO - Command 'add' from plugin 'add' registered.
+2025-03-12 21:12:59,203 - INFO - Command 'divide' from plugin 'divide' registered.
+2025-03-12 21:12:59,203 - INFO - Command 'history' from plugin 'history' registered.
+2025-03-12 21:12:59,204 - INFO - Command 'menu' from plugin 'menu' registered.
+2025-03-12 21:12:59,205 - INFO - Command 'multiply' from plugin 'multiply' registered.
+2025-03-12 21:12:59,206 - INFO - Command 'subtract' from plugin 'subtract' registered.
+2025-03-12 21:12:59,206 - INFO - Application started.
+2025-03-12 21:12:59,206 - INFO - Type 'menu' to see commands.
+2025-03-12 21:12:59,206 - INFO - Type 'exit' to exit.
+2025-03-12 21:12:59,206 - INFO - Type 'history show' to see history.
+2025-03-12 21:12:59,206 - INFO - 1.0 - 1.0 = 0.0
+2025-03-12 21:12:59,207 - INFO - Application exit.
+2025-03-12 21:12:59,210 - INFO - Logging configured.
+2025-03-12 21:12:59,210 - INFO - Environment variables loaded.
+2025-03-12 21:12:59,211 - INFO - Command 'add' from plugin 'add' registered.
+2025-03-12 21:12:59,212 - INFO - Command 'divide' from plugin 'divide' registered.
+2025-03-12 21:12:59,212 - INFO - Command 'history' from plugin 'history' registered.
+2025-03-12 21:12:59,212 - INFO - Command 'menu' from plugin 'menu' registered.
+2025-03-12 21:12:59,212 - INFO - Command 'multiply' from plugin 'multiply' registered.
+2025-03-12 21:12:59,213 - INFO - Command 'subtract' from plugin 'subtract' registered.
+2025-03-12 21:12:59,213 - INFO - Application started.
+2025-03-12 21:12:59,213 - INFO - Type 'menu' to see commands.
+2025-03-12 21:12:59,213 - INFO - Type 'exit' to exit.
+2025-03-12 21:12:59,213 - INFO - Type 'history show' to see history.
+2025-03-12 21:12:59,213 - INFO - 1.0 x 1.0 = 1.0
+2025-03-12 21:12:59,213 - INFO - Application exit.
+2025-03-12 21:12:59,216 - INFO - Logging configured.
+2025-03-12 21:12:59,216 - INFO - Environment variables loaded.
+2025-03-12 21:12:59,217 - INFO - Command 'add' from plugin 'add' registered.
+2025-03-12 21:12:59,218 - INFO - Command 'divide' from plugin 'divide' registered.
+2025-03-12 21:12:59,218 - INFO - Command 'history' from plugin 'history' registered.
+2025-03-12 21:12:59,219 - INFO - Command 'menu' from plugin 'menu' registered.
+2025-03-12 21:12:59,219 - INFO - Command 'multiply' from plugin 'multiply' registered.
+2025-03-12 21:12:59,220 - INFO - Command 'subtract' from plugin 'subtract' registered.
+2025-03-12 21:12:59,220 - INFO - Application started.
+2025-03-12 21:12:59,220 - INFO - Type 'menu' to see commands.
+2025-03-12 21:12:59,220 - INFO - Type 'exit' to exit.
+2025-03-12 21:12:59,220 - INFO - Type 'history show' to see history.
+2025-03-12 21:12:59,220 - INFO - 1.0 / 1.0 = 1.0
+2025-03-12 21:12:59,220 - INFO - Application exit.
+2025-03-12 21:12:59,225 - INFO - Logging configured.
+2025-03-12 21:12:59,226 - INFO - Environment variables loaded.
+2025-03-12 21:12:59,226 - INFO - Command 'add' from plugin 'add' registered.
+2025-03-12 21:12:59,227 - INFO - Command 'divide' from plugin 'divide' registered.
+2025-03-12 21:12:59,227 - INFO - Command 'history' from plugin 'history' registered.
+2025-03-12 21:12:59,227 - INFO - Command 'menu' from plugin 'menu' registered.
+2025-03-12 21:12:59,228 - INFO - Command 'multiply' from plugin 'multiply' registered.
+2025-03-12 21:12:59,228 - INFO - Command 'subtract' from plugin 'subtract' registered.
+2025-03-12 21:12:59,228 - INFO - Application started.
+2025-03-12 21:12:59,228 - INFO - Type 'menu' to see commands.
+2025-03-12 21:12:59,228 - INFO - Type 'exit' to exit.
+2025-03-12 21:12:59,229 - INFO - Type 'history show' to see history.
+2025-03-12 21:12:59,229 - INFO - Application exit.
+2025-03-12 21:12:59,232 - INFO - Logging configured.
+2025-03-12 21:12:59,232 - INFO - Environment variables loaded.
+2025-03-12 21:12:59,233 - INFO - Command 'add' from plugin 'add' registered.
+2025-03-12 21:12:59,234 - INFO - Command 'divide' from plugin 'divide' registered.
+2025-03-12 21:12:59,234 - INFO - Command 'history' from plugin 'history' registered.
+2025-03-12 21:12:59,234 - INFO - Command 'menu' from plugin 'menu' registered.
+2025-03-12 21:12:59,235 - INFO - Command 'multiply' from plugin 'multiply' registered.
+2025-03-12 21:12:59,235 - INFO - Command 'subtract' from plugin 'subtract' registered.
+2025-03-12 21:12:59,235 - INFO - Application started.
+2025-03-12 21:12:59,235 - INFO - Type 'menu' to see commands.
+2025-03-12 21:12:59,235 - INFO - Type 'exit' to exit.
+2025-03-12 21:12:59,235 - INFO - Type 'history show' to see history.
+2025-03-12 21:12:59,236 - INFO - Application exit.
+2025-03-12 21:12:59,241 - INFO - Logging configured.
+2025-03-12 21:12:59,242 - INFO - Environment variables loaded.
+2025-03-12 21:13:06,516 - INFO - Logging configured.
+2025-03-12 21:13:06,518 - INFO - Environment variables loaded.
+2025-03-12 21:13:06,519 - INFO - Command 'add' from plugin 'add' registered.
+2025-03-12 21:13:06,520 - INFO - Command 'divide' from plugin 'divide' registered.
+2025-03-12 21:13:06,520 - INFO - Command 'history' from plugin 'history' registered.
+2025-03-12 21:13:06,521 - INFO - Command 'menu' from plugin 'menu' registered.
+2025-03-12 21:13:06,522 - INFO - Command 'multiply' from plugin 'multiply' registered.
+2025-03-12 21:13:06,522 - INFO - Command 'subtract' from plugin 'subtract' registered.
+2025-03-12 21:13:06,522 - INFO - Application started.
+2025-03-12 21:13:06,522 - INFO - Type 'menu' to see commands.
+2025-03-12 21:13:06,523 - INFO - Type 'exit' to exit.
+2025-03-12 21:13:06,523 - INFO - Type 'history show' to see history.
+2025-03-12 21:13:06,523 - INFO - 1.0 + 1.0 = 2.0
+2025-03-12 21:13:06,523 - INFO - Application exit.
+2025-03-12 21:13:06,528 - INFO - Logging configured.
+2025-03-12 21:13:06,529 - INFO - Environment variables loaded.
+2025-03-12 21:13:06,529 - INFO - Command 'add' from plugin 'add' registered.
+2025-03-12 21:13:06,530 - INFO - Command 'divide' from plugin 'divide' registered.
+2025-03-12 21:13:06,530 - INFO - Command 'history' from plugin 'history' registered.
+2025-03-12 21:13:06,531 - INFO - Command 'menu' from plugin 'menu' registered.
+2025-03-12 21:13:06,532 - INFO - Command 'multiply' from plugin 'multiply' registered.
+2025-03-12 21:13:06,533 - INFO - Command 'subtract' from plugin 'subtract' registered.
+2025-03-12 21:13:06,533 - INFO - Application started.
+2025-03-12 21:13:06,533 - INFO - Type 'menu' to see commands.
+2025-03-12 21:13:06,533 - INFO - Type 'exit' to exit.
+2025-03-12 21:13:06,533 - INFO - Type 'history show' to see history.
+2025-03-12 21:13:06,533 - INFO - 1.0 - 1.0 = 0.0
+2025-03-12 21:13:06,534 - INFO - Application exit.
+2025-03-12 21:13:06,537 - INFO - Logging configured.
+2025-03-12 21:13:06,538 - INFO - Environment variables loaded.
+2025-03-12 21:13:06,539 - INFO - Command 'add' from plugin 'add' registered.
+2025-03-12 21:13:06,540 - INFO - Command 'divide' from plugin 'divide' registered.
+2025-03-12 21:13:06,540 - INFO - Command 'history' from plugin 'history' registered.
+2025-03-12 21:13:06,541 - INFO - Command 'menu' from plugin 'menu' registered.
+2025-03-12 21:13:06,542 - INFO - Command 'multiply' from plugin 'multiply' registered.
+2025-03-12 21:13:06,543 - INFO - Command 'subtract' from plugin 'subtract' registered.
+2025-03-12 21:13:06,543 - INFO - Application started.
+2025-03-12 21:13:06,543 - INFO - Type 'menu' to see commands.
+2025-03-12 21:13:06,543 - INFO - Type 'exit' to exit.
+2025-03-12 21:13:06,543 - INFO - Type 'history show' to see history.
+2025-03-12 21:13:06,543 - INFO - 1.0 x 1.0 = 1.0
+2025-03-12 21:13:06,544 - INFO - Application exit.
+2025-03-12 21:13:06,551 - INFO - Logging configured.
+2025-03-12 21:13:06,552 - INFO - Environment variables loaded.
+2025-03-12 21:13:06,553 - INFO - Command 'add' from plugin 'add' registered.
+2025-03-12 21:13:06,553 - INFO - Command 'divide' from plugin 'divide' registered.
+2025-03-12 21:13:06,554 - INFO - Command 'history' from plugin 'history' registered.
+2025-03-12 21:13:06,555 - INFO - Command 'menu' from plugin 'menu' registered.
+2025-03-12 21:13:06,555 - INFO - Command 'multiply' from plugin 'multiply' registered.
+2025-03-12 21:13:06,556 - INFO - Command 'subtract' from plugin 'subtract' registered.
+2025-03-12 21:13:06,556 - INFO - Application started.
+2025-03-12 21:13:06,556 - INFO - Type 'menu' to see commands.
+2025-03-12 21:13:06,556 - INFO - Type 'exit' to exit.
+2025-03-12 21:13:06,556 - INFO - Type 'history show' to see history.
+2025-03-12 21:13:06,556 - INFO - 1.0 / 1.0 = 1.0
+2025-03-12 21:13:06,556 - INFO - Application exit.
+2025-03-12 21:13:06,560 - INFO - Logging configured.
+2025-03-12 21:13:06,562 - INFO - Environment variables loaded.
+2025-03-12 21:13:06,562 - INFO - Command 'add' from plugin 'add' registered.
+2025-03-12 21:13:06,563 - INFO - Command 'divide' from plugin 'divide' registered.
+2025-03-12 21:13:06,563 - INFO - Command 'history' from plugin 'history' registered.
+2025-03-12 21:13:06,564 - INFO - Command 'menu' from plugin 'menu' registered.
+2025-03-12 21:13:06,565 - INFO - Command 'multiply' from plugin 'multiply' registered.
+2025-03-12 21:13:06,565 - INFO - Command 'subtract' from plugin 'subtract' registered.
+2025-03-12 21:13:06,566 - INFO - Application started.
+2025-03-12 21:13:06,566 - INFO - Type 'menu' to see commands.
+2025-03-12 21:13:06,566 - INFO - Type 'exit' to exit.
+2025-03-12 21:13:06,566 - INFO - Type 'history show' to see history.
+2025-03-12 21:13:06,566 - INFO - Application exit.
+2025-03-12 21:13:06,571 - INFO - Logging configured.
+2025-03-12 21:13:06,573 - INFO - Environment variables loaded.
+2025-03-12 21:13:06,574 - INFO - Command 'add' from plugin 'add' registered.
+2025-03-12 21:13:06,575 - INFO - Command 'divide' from plugin 'divide' registered.
+2025-03-12 21:13:06,576 - INFO - Command 'history' from plugin 'history' registered.
+2025-03-12 21:13:06,577 - INFO - Command 'menu' from plugin 'menu' registered.
+2025-03-12 21:13:06,578 - INFO - Command 'multiply' from plugin 'multiply' registered.
+2025-03-12 21:13:06,579 - INFO - Command 'subtract' from plugin 'subtract' registered.
+2025-03-12 21:13:06,579 - INFO - Application started.
+2025-03-12 21:13:06,579 - INFO - Type 'menu' to see commands.
+2025-03-12 21:13:06,579 - INFO - Type 'exit' to exit.
+2025-03-12 21:13:06,579 - INFO - Type 'history show' to see history.
+2025-03-12 21:13:06,580 - INFO - Application exit.
+2025-03-12 21:13:06,585 - INFO - Logging configured.
+2025-03-12 21:13:06,586 - INFO - Environment variables loaded.

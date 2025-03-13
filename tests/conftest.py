@@ -1,3 +1,12 @@
+"""
+Pytest configuration file.
+
+This file defines shared fixtures and command-line options for pytest.
+It includes:
+- A `--num_records` argument to control the number of test records.
+- Fixtures for dynamically generating test data using Faker.
+"""
+
 import pytest
 from faker import Faker
 

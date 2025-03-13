@@ -40,3 +40,13 @@ Watch the video demonstration [here](https://www.youtube.com/watch?v=your-video-
 5. Passes [pytest](screenshots/pytest.png)
 6. Passes [pylint](screenshots/pylint test.png)
 7. 100% test coverage [pytestcov](screenshots/pytest cov.png)
+8. Test pass with fake data generated with [faker](screenshots/faker.png). command: <code> pytest tests --num_records=100 </code> for full report we can this command: <code> pytest tests --num_records=10 -v -s </code>.
+9. <code>main.py</code> is the entry point of this project, offering a command-line interface (CLI) for executing commands and interacting with the application.
+10. You can access log files [here](https://github.com/JaswanthKSnjit/IS601-Mid-Term/tree/main/logs).
+11. Implemented <code>LBYL and EAFP</code> in my code.<br>
+    - <code>Look Before You Leap - LBYL</code><br>
+        - My code checks if files and directories exist before accessing them (e.g., checking os.path.exists() before opening a file).Implemented [here](https://github.com/JaswanthKSnjit/IS601-Mid-Term/blob/main/app/plugins/history/__init__.py)<br>
+        - Example: In <code>history/__init__.py</code>, before opening <code>history.csv</code>, we check if it exists to avoid an error.<br>
+    - <code>Easier to Ask for Forgiveness than Permission - EAFP</code><br>
+        - Instead of checking conditions, my code tries to execute actions and catches exceptions if they fail (e.g., <code>try/except</code>).Implemented [here](https://github.com/JaswanthKSnjit/IS601-Mid-Term/blob/main/app/commands/__init__.py)<br>
+        - Example: In <code>execute_command()<code>, the program assumes the command exists and catches KeyError if it doesn’t.<br>

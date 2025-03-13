@@ -45,11 +45,11 @@ Watch the video demonstration [here](https://www.youtube.com/watch?v=your-video-
 10. You can access log files [here](https://github.com/JaswanthKSnjit/IS601-Mid-Term/tree/main/logs).
 11. Implemented <code>LBYL and EAFP</code> in my code.<br>
 - <code>Look Before You Leap - LBYL</code>
-    - My code checks if files and directories exist before accessing them (e.g., checking os.path.exists() before opening a file).Implemented [here](https://github.com/JaswanthKSnjit/IS601-Mid-Term/blob/main/app/plugins/history/__init__.py)
-    - Example: In <code>history/__init__.py</code>, before opening <code>history.csv</code>, we check if it exists to avoid an error.
+- My code checks if files and directories exist before accessing them (e.g., checking os.path.exists() before opening a file).Implemented [here](https://github.com/JaswanthKSnjit/IS601-Mid-Term/blob/main/app/plugins/history/__init__.py)
+- Example: In <code>history/__init__.py</code>, before opening <code>history.csv</code>, we check if it exists to avoid an error.
 - <code>Easier to Ask for Forgiveness than Permission - EAFP</code>
-    - Instead of checking conditions, my code tries to execute actions and catches exceptions if they fail (e.g., <code>try/except</code>).Implemented [here](https://github.com/JaswanthKSnjit/IS601-Mid-Term/blob/main/app/commands/__init__.py)
-    - Example: In <code>execute_command()<code>, the program assumes the command exists and catches KeyError if it doesn’t.
+- Instead of checking conditions, my code tries to execute actions and catches exceptions if they fail (e.g., <code>try/except</code>).Implemented [here](https://github.com/JaswanthKSnjit/IS601-Mid-Term/blob/main/app/commands/__init__.py)
+- Example: In <code>execute_command()<code>, the program assumes the command exists and catches KeyError if it doesn’t.
 12. Uses multiprocessing to enable commands to run on separate cores.
 13. .env is used to set environment variables.
 14. Passes GitHub Action Workflow to run [pytests](https://github.com/JaswanthKSnjit/IS601-Mid-Term/actions).

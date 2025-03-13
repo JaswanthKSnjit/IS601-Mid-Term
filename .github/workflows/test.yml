@@ -3,10 +3,10 @@ name: Run Tests with Coverage
 on:
   push:
     branches:
-      - main
+      - master
   pull_request:
     branches:
-      - main
+      - master
 
 jobs:
   test:
@@ -29,4 +29,7 @@ jobs:
           pip install -r requirements.txt
           pip install pytest pytest-cov
 
-      
+      - name: Run Pytest with Coverage
+        run: |
+          source venv/bin/activate
+          pytest --cov=app --cov-report=term-missing

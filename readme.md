@@ -38,5 +38,5 @@ Watch the video demonstration [here](https://www.youtube.com/watch?v=your-video-
 3. Uses atleat one class, one static method and one class method.
 4. All the claculation is stored in [data/history.csv](https://github.com/JaswanthKSnjit/IS601-Mid-Term/blob/main/data/history.csv).
 5. Passes [pytest](screenshots/pytest.png)
-6. Passes [pytest --pylint](screenshots/pylint test.png)
-7. 100% test coverage [pytest --cov](screenshots/pytest cov.png)
+6. Passes [pylint](screenshots/pylint test.png)
+7. 100% test coverage [pytestcov](screenshots/pytest cov.png)

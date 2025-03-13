@@ -5,7 +5,7 @@ from abc import ABC, abstractmethod
 HISTORY_FILE = "data/history.csv"  # Ensure the correct path
 
 # Define Command (Abstract Base Class)
-class Command(ABC):  # pragma: no cover
+class Command(ABC): #pragma: no cover
     @abstractmethod
     def execute(self, *args, **kwargs):
         """Abstract method to execute the command with given arguments."""
@@ -23,13 +23,6 @@ class CommandHandler:
     def register_command(self, command_name: str, command):
         """Registers a command with its corresponding name."""
         self.commands[command_name] = command
-
-    def create_command(self, command_name):
-        """Factory Method: Dynamically creates a command instance if registered."""
-        command_class = self.commands.get(command_name)
-        if command_class:
-            return command_class()  # Dynamically instantiate the command
-        return None  # Return None if the command is not found
 
     def execute_command(self, command_name: str, *args):
         """ 
@@ -51,14 +44,8 @@ class CommandHandler:
             # Convert all arguments to floats for consistency
             args = [float(arg) for arg in args]
 
-            # Use Factory Method to create the command instance
-            command_instance = self.create_command(command_name)
-            if not command_instance:
-                print(f"No such command: {command_name}")
-                return
-
             # Execute the command and store the result
-            result = float(command_instance.execute(*args))
+            result = float(self.commands[command_name].execute(*args))
 
             # Create a formatted command entry
             command_entry = [command_name, *args, result]
@@ -68,8 +55,10 @@ class CommandHandler:
                 self.history.append(command_entry)  # Append only if unique
                 self.save_history()  # Save updated history to CSV
 
+        except KeyError:
+            print(f"No such command: {command_name}")
         except ValueError:
-            print("Enter valid numbers for the operation.") # pragma: no cover
+            print("Enter valid numbers for the operation.")
         except Exception as e:
             print(f"Error executing command '{command_name}': {e}")
 
@@ -88,7 +77,7 @@ class CommandHandler:
                 print(f"Error loading history: {e}")
         return history_data
 
-    def save_history(self):  # pragma: no cover
+    def save_history(self): # pragma: no cover
         """Save the complete history list to CSV, ensuring no duplicate entries."""
         with open(HISTORY_FILE, mode="w", newline="") as file:  # Overwrite to prevent duplicates
             writer = csv.writer(file)

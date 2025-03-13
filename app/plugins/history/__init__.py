@@ -26,7 +26,7 @@ class HistoryCommand(Command):
         command = args[0]
         
         if command == "show":
-            self.show_history()  # ✅ Ensure this method exists
+            self.show_history()  # Ensure this method exists
         elif command == "clear":
             self.clear_history()
         elif command == "delete" and len(args) > 1:

@@ -3255,3 +3255,41 @@
 2025-03-12 20:43:05,535 - INFO - Application exit.
 2025-03-12 20:43:05,540 - INFO - Logging configured.
 2025-03-12 20:43:05,541 - INFO - Environment variables loaded.
+2025-03-12 20:46:22,287 - INFO - Logging configured.
+2025-03-12 20:46:22,288 - INFO - Environment variables loaded.
+2025-03-12 20:46:22,288 - INFO - Command 'add' from plugin 'add' registered.
+2025-03-12 20:46:22,289 - INFO - Command 'divide' from plugin 'divide' registered.
+2025-03-12 20:46:22,290 - INFO - Command 'history' from plugin 'history' registered.
+2025-03-12 20:46:22,291 - INFO - Command 'menu' from plugin 'menu' registered.
+2025-03-12 20:46:22,293 - INFO - Command 'multiply' from plugin 'multiply' registered.
+2025-03-12 20:46:22,295 - INFO - Command 'subtract' from plugin 'subtract' registered.
+2025-03-12 20:46:22,297 - INFO - Application started.
+2025-03-12 20:46:22,298 - INFO - Type 'menu' to see commands.
+2025-03-12 20:46:22,298 - INFO - Type 'exit' to exit.
+2025-03-12 20:46:22,298 - INFO - Type 'history show' to see history.
+2025-03-12 20:48:18,957 - INFO - Application exit.
+2025-03-12 20:48:55,882 - INFO - Logging configured.
+2025-03-12 20:48:55,883 - INFO - Environment variables loaded.
+2025-03-12 20:48:55,884 - INFO - Command 'add' from plugin 'add' registered.
+2025-03-12 20:48:55,884 - INFO - Command 'divide' from plugin 'divide' registered.
+2025-03-12 20:48:55,884 - INFO - Command 'history' from plugin 'history' registered.
+2025-03-12 20:48:55,885 - INFO - Command 'menu' from plugin 'menu' registered.
+2025-03-12 20:48:55,886 - INFO - Command 'multiply' from plugin 'multiply' registered.
+2025-03-12 20:48:55,886 - INFO - Command 'subtract' from plugin 'subtract' registered.
+2025-03-12 20:48:55,887 - INFO - Application started.
+2025-03-12 20:48:55,887 - INFO - Type 'menu' to see commands.
+2025-03-12 20:48:55,887 - INFO - Type 'exit' to exit.
+2025-03-12 20:48:55,887 - INFO - Type 'history show' to see history.
+2025-03-12 20:49:03,739 - INFO - 4.0 + 4.0 = 8.0
+2025-03-12 20:49:10,821 - INFO - 4.0 - 0.0 = 4.0
+2025-03-12 20:49:17,604 - INFO - 4.0 x 98.0 = 392.0
+2025-03-12 20:49:29,838 - INFO - 4.0 / 9.0 = 0.4444444444444444
+2025-03-12 20:51:32,085 - INFO - 2.0 + 2.0 = 4.0
+2025-03-12 20:51:38,189 - INFO - 4.0 - 5.0 = -1.0
+2025-03-12 20:51:59,512 - INFO - History cleared.
+2025-03-12 20:52:04,477 - INFO - 2.0 + 2.0 = 4.0
+2025-03-12 20:52:10,506 - INFO - 3.0 - 2.0 = 1.0
+2025-03-12 20:52:28,996 - INFO - 5.0 / 1.0 = 5.0
+2025-03-12 20:53:02,898 - INFO - 4.0 x 5.0 = 20.0
+2025-03-12 20:53:09,313 - INFO - 4.0 + 5.0 = 9.0
+2025-03-12 20:53:31,823 - INFO - Application exit.

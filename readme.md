@@ -43,24 +43,20 @@ Watch the video demonstration [here](https://www.youtube.com/watch?v=your-video-
 8. Test pass with fake data generated with [faker](screenshots/faker.png). command: <code> pytest tests --num_records=100 </code> for full report we can this command: <code> pytest tests --num_records=10 -v -s </code>.
 9. <code>main.py</code> is the entry point of this project, offering a command-line interface (CLI) for executing commands and interacting with the application.
 10. You can access log files [here](https://github.com/JaswanthKSnjit/IS601-Mid-Term/tree/main/logs).
-## Implemented LBYL and EAFP in My Code
+11. **Implemented LBYL and EAFP in My Code**  
+    - **Look Before You Leap (LBYL)**  
+      - My code checks if files and directories exist before accessing them (e.g., checking `os.path.exists()` before opening a file).
+      - **Example:** In [`history/__init__.py`](https://github.com/JaswanthKSnjit/IS601-Mid-Term/blob/main/app/plugins/history/__init__.py), before opening `history.csv`, we check if it exists to avoid an error.
+    
+    - **Easier to Ask for Forgiveness than Permission (EAFP)**  
+      - Instead of checking conditions, my code **tries to execute actions and catches exceptions** if they fail *(e.g., `try/except`)*.
+      - **Example:** In [`commands/__init__.py`](https://github.com/JaswanthKSnjit/IS601-Mid-Term/blob/main/app/commands/__init__.py), the function `execute_command()` assumes that the command exists and catches `KeyError` if it doesn’t.
 
-### 🔹 Look Before You Leap (LBYL)
-- My code checks if files and directories exist before accessing them (e.g., checking `os.path.exists()` before opening a file).
-- **Example:** In [`history/__init__.py`](https://github.com/JaswanthKSnjit/IS601-Mid-Term/blob/main/app/plugins/history/__init__.py), before opening `history.csv`, we check if it exists to avoid an error.
-
-### 🔹 Easier to Ask for Forgiveness than Permission (EAFP)
-- Instead of checking conditions, my code **tries to execute actions and catches exceptions** if they fail *(e.g., `try/except`)*.
-- **Example:** In [`commands/__init__.py`](https://github.com/JaswanthKSnjit/IS601-Mid-Term/blob/main/app/commands/__init__.py), the function `execute_command()` assumes that the command exists and catches `KeyError` if it doesn’t.
-
-### ✅ Other Features
-- Uses multiprocessing to enable commands to run on separate cores.
-- `.env` is used to set environment variables.
-- Passes GitHub Action Workflow to run [Pytests](https://github.com/JaswanthKSnjit/IS601-Mid-Term/actions).
-- Design pattern is implemented all over the code.
-- Documentation is available [here]().
-
-
+12. **Uses multiprocessing to enable commands to run on separate cores.**  
+13. **`.env` is used to set environment variables.**  
+14. **Passes GitHub Action Workflow to run [Pytests](https://github.com/JaswanthKSnjit/IS601-Mid-Term/actions).**  
+15. **Design pattern is implemented all over the code.**  
+16. **Documentation is available [here]().**  
 
 ---
 

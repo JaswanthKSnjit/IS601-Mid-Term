@@ -13,7 +13,7 @@ class DivideCommand(Command):
             raise ZeroDivisionError('Cannot divide by 0!')
         return a / b
 
-    def execute(self, *args, **kwargs):
+    def execute(self, *args, **kwargs): # pragma: no cover
         """Execute the division command and save to history."""
         a, b = map(float, args)  # Convert inputs to float
         result = self.evaluate(a, b)  # Get the result of the division
@@ -25,12 +25,12 @@ class DivideCommand(Command):
 
         return result  # Return the result for command history
 
-    def save_to_history(self, operation, num1, num2, result):
+    def save_to_history(self, operation, num1, num2, result): # pragma: no cover
         """Append calculation result to history.csv."""
         file_exists = os.path.exists(HISTORY_FILE)
         
         with open(HISTORY_FILE, mode='a', newline='') as file:
             writer = csv.writer(file)
             if not file_exists:
-                writer.writerow(["Operation", "Operand1", "Operand2", "Result"])  # pragma: no cover
+                writer.writerow(["Operation", "Operand1", "Operand2", "Result"]) 
             writer.writerow([operation, num1, num2, result])

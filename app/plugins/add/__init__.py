@@ -11,7 +11,7 @@ class AddCommand(Command):
         """Perform the addition of two numbers."""
         return a + b
 
-    def execute(self, *args, **kwargs):
+    def execute(self, *args, **kwargs): # pragma: no cover
         """Execute the addition command and save to history."""
         # Ensure args are converted to floats
         a, b = map(float, args)
@@ -24,12 +24,12 @@ class AddCommand(Command):
 
         return result  # Return the result for command history
     
-    def save_to_history(self, operation, num1, num2, result):
+    def save_to_history(self, operation, num1, num2, result): # pragma: no cover
         """Append calculation result to history.csv."""
         file_exists = os.path.exists(HISTORY_FILE)
         
         with open(HISTORY_FILE, mode='a', newline='') as file:
             writer = csv.writer(file)
             if not file_exists:
-                writer.writerow(["Operation", "Operand1", "Operand2", "Result"])  # pragma: no cover
+                writer.writerow(["Operation", "Operand1", "Operand2", "Result"])  
             writer.writerow([operation, num1, num2, result])

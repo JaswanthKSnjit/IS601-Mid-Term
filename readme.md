@@ -23,3 +23,20 @@ Check the workflow runs [here](https://github.com/JaswanthKSnjit/IS601-Mid-Term/
 
 The workflow file is located [here](https://github.com/JaswanthKSnjit/IS601-Mid-Term/blob/main/.github/workflows/test.yml).
 
+---
+
+## Demonstration Video
+
+Watch the video demonstration [here](https://www.youtube.com/watch?v=your-video-id).
+
+---
+
+## Project Requirements
+
+1. The program does basic Arithmeic operations such as <code>add, subtract, multiply, divide</code>.
+2. Throws an exception when user divide a number with zero. <code>Error Message: Cannot Divide by 0!</code>.
+3. Uses atleat one class, one static method and one class method.
+4. All the claculation is stored in [data/history.csv](https://github.com/JaswanthKSnjit/IS601-Mid-Term/blob/main/data/history.csv).
+5. Passes [pytest](screenshots/pytest.png)
+6. Passes [pytest --pylint](screenshots/pylint test.png)
+7. 100% test coverage [pytest --cov](screenshots/pytest cov.png)

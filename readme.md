@@ -56,7 +56,7 @@ Watch the video demonstration [here](https://www.youtube.com/watch?v=your-video-
 13. **`.env` is used to set environment variables.**  
 14. **Passes GitHub Action Workflow to run [Pytests](https://github.com/JaswanthKSnjit/IS601-Mid-Term/actions).**  
 15. **Design pattern is implemented all over the code.**  
-16. **Documentation is available [here]().**  
+16. **Documentation is available [here](https://github.com/JaswanthKSnjit/IS601-Mid-Term/blob/main/readme.md).**  
 
 ---
 
@@ -93,8 +93,8 @@ Watch the video demonstration [here](https://www.youtube.com/watch?v=your-video-
    - The CSV file manages the history.
    - CSV file can be viewed [here](https://github.com/JaswanthKSnjit/IS601-Mid-Term/blob/main/data/history.csv).
 
-6. **Design Patterns for Scalable Architecture**
-   *Facade Pattern*
+6. **Design Patterns for Scalable Architecture**<br>
+   ### *Facade Pattern*
      - Simplifies complex data operations using Pandas.
      - `HistoryCommand` class abstracts the process of **reading, saving, and clearing history** in a **single interface**, shielding users from low-level CSV operations.
      - Example in `history/__init__.py` [here](https://github.com/JaswanthKSnjit/IS601-Mid-Term/blob/main/app/plugins/history/__init__.py).
@@ -108,5 +108,73 @@ Watch the video demonstration [here](https://www.youtube.com/watch?v=your-video-
                 df = pd.read_csv(self.csv_file)
                 print(tabulate(df, headers='keys', tablefmt='pretty'))
      - The reason to use facade pattern as it provides (show_history()) to interact with CSV and Pandas operations.
-    *Facade Pattern*
-     - 
+    ### *Command Pattern*
+     - Each operation (Add, Subtract, Multiply, Divide) is encapsulated in its own command class, following the Command Pattern.
+     - Example in `app/plugins/add/__init__.py` [here](https://github.com/JaswanthKSnjit/IS601-Mid-Term/blob/main/app/plugins/add/__init__.py).
+       ```python
+       from app.commands import Command
+       class AddCommand(Command):
+           def execute(self, a, b):
+               return a + b
+     - The above code shows on how each arithmetic operation is treated with <code>execute()</code> method.
+    ### *Factory Method*
+     - Instead of manually creating command objects, we use a Factory Method in <code>CommandHandler</code>
+     - Example in `app/commands/__init__.py` [here](https://github.com/JaswanthKSnjit/IS601-Mid-Term/blob/main/app/commands/__init__.py)
+       ```python
+       def create_command(self, command_name):
+           """Factory Method: Dynamically creates a command instance"""
+           command_class = self.commands.get(command_name)
+           if command_class:
+              return command_class()
+           return None  # Return None if command is not found
+     - This follows the Singleton Pattern because it ensures only one <code>HistoryCommand</code> instance exists in memory.
+     ### *Singleton Method*
+     - Here <code>HistoryCommand</code> class uses Singleton to prevent multiple instances from corrupting history data.
+     - Example in `app/plugins/history/__init__.py` [here](https://github.com/JaswanthKSnjit/IS601-Mid-Term/blob/main/app/plugins/history/__init__.py).
+       ```python
+       class HistoryCommand(Command):
+          _instance = None  # Singleton instance
+
+          def __new__(cls, command_handler):
+              if cls._instance is None:
+                 cls._instance = super(HistoryCommand, cls).__new__(cls)
+                 cls._instance.init_history(command_handler)
+              return cls._instance
+     - This follows the Singleton Pattern because it ensures only one <code>HistoryCommand</code> instance exists in memory.
+    ### *Strategy Method*
+     - Here we separate different mathematical operations into distinct strategy classes, making them easily swappable.
+     - Example in `app/plugins` [here](https://github.com/JaswanthKSnjit/IS601-Mid-Term/blob/main/app/plugins/).
+      ```python
+      class OperationStrategy:
+          def execute(self, a, b):
+              pass  # To be overridden
+
+      class AddStrategy(OperationStrategy):
+          def execute(self, a, b):
+              return a + b
+     - This follows the Strategy Pattern by allowing different operations <code>AddStrategy, SubtractStrategy, MultiplyStrategy, DivisionStrategy</code> to be interchangeable.
+
+---
+
+## Testing
+
+- Achieves 100% test coverage in all tests output screenshot can be viewed [here](https://github.com/JaswanthKSnjit/IS601-Mid-Term/tree/main/screenshots).
+- For version control git commit can be viewed [here](https://github.com/JaswanthKSnjit/IS601-Mid-Term/commits/main/).
+
+## Evaluation Criteria
+
+### **✅ Evaluation Criteria**
+| **Category** | **Criteria** | **Status** |
+|-------------|-------------|------------|
+| **Functionality** | Calculator Operations | ✅ Completed |
+| | History Management | ✅ Completed |
+| | Configuration via Environment Variables | ✅ Completed |
+| | REPL Interface | ✅ Completed |
+| **Design Patterns** | Implementation and Application | ✅ Completed |
+| | Documentation and Explanation | ✅ Completed |
+| **Testing and Code Quality** | Comprehensive Testing with Pytest | ✅ Completed |
+| | Code Quality and Adherence to Standards | ✅ Completed |
+| **Version Control, Documentation, and Logging** | Commit History | ✅ Completed |
+| | README Documentation | ✅ Completed |
+| | Logging Practices | ✅ Completed |
+

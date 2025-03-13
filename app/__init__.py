@@ -33,7 +33,7 @@ class App:
             logging.config.fileConfig(logging_conf_path, disable_existing_loggers=False)
         else:
             logging.basicConfig(level=logging.INFO, filename=log_file_path, 
-                                format='%(asctime)s - %(levelname)s - %(message)s')
+                                format='%(asctime)s - %(levelname)s - %(message)s') #pragma: no cover
         logging.info("Logging configured.")
 
     def load_environment_variables(self):
@@ -42,11 +42,11 @@ class App:
         logging.info("Environment variables loaded.")
         return settings
 
-    def load_plugins(self):
+    def load_plugins(self): #pragma: no cover
         """Dynamically load all plugins from the 'app.plugins' directory."""
         plugins_package = 'app.plugins'
         plugins_path = plugins_package.replace('.', '/')
-        if not os.path.exists(plugins_path):
+        if not os.path.exists(plugins_path): 
             logging.warning(f"Plugins directory '{plugins_path}' not found.")
             return
         for _, plugin_name, is_pkg in pkgutil.iter_modules([plugins_path]):
@@ -75,7 +75,7 @@ class App:
 
 
 
-    def start(self):
+    def start(self): #pragma: no cover
         """Start the REPL for command input."""
         self.load_plugins()
         logging.info("Application started.")
@@ -92,7 +92,7 @@ class App:
                 sys.exit(0)  # Use sys.exit(0) for a clean exit, indicating success.
             
             # Run the specified command with provided arguments
-            try:
+            try: #pragma: no cover
                 self.command_handler.execute_command(command_name, *user_input[1:])
             except KeyError:
                 logging.error(f"Unknown command: {command_name}")

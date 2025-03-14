@@ -28,6 +28,7 @@ The workflow file is located [here](https://github.com/JaswanthKSnjit/IS601-Mid-
 ## Demonstration Video
 
 Watch the video demonstration [here](https://drive.google.com/file/d/1P1f6gKHSjdgk0wjz6FU5yeScqjtO38DZ/view?usp=drive_link).
+Youtube video link just incase Google drive link doesnt open [here](https://youtu.be/Z_LBKEmQ6Jk)
 
 ---
 
